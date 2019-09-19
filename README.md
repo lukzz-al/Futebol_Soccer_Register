@@ -7,3 +7,7 @@
  - Use at least 4 types of data.
  - At least 2 class.
  - Database with referential integrity.
+ - A screen for sign up players.
+ - A screen that show all players in database.
+ - An option for change some playeri nformation.
+ - An option to exclude a player from database.
