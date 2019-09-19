@@ -1,0 +1,3 @@
+CREATE TABLE `banco_jogadores`.`jogadores` ( `nome` VARCHAR(50) NOT NULL ,  `rg` VARCHAR(12) NOT NULL ,  `idade` INT(2) NOT NULL ,  `tamanho` DOUBLE(3,2) NOT NULL ,  `peso` DOUBLE(4,2) NOT NULL ,  `nascimento` DATE NULL DEFAULT NULL ,    PRIMARY KEY  (`rg`)) ENGINE = InnoDB;
+CREATE TABLE `banco_jogadores`.`time` ( `time` VARCHAR(50) NOT NULL ,  `posicao` CHAR(2) NOT NULL ,  `salario` DOUBLE(7,2) NOT NULL ,  `camisa` INT(2) NOT NULL ,  `contrato` DOUBLE(9,2) NOT NULL ,    PRIMARY KEY  (`time`)) ENGINE = InnoDB;
+ALTER TABLE jogadores add nm_time varchar(50) references time;
