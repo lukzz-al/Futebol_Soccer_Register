@@ -11,5 +11,5 @@
  - Database with referential integrity.
  - A screen for sign up players.
  - A screen that show all players in database.
- - An option for change some playeri nformation.
+ - An option for change some player information.
  - An option to exclude a player from database.
