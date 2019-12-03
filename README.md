@@ -1,5 +1,5 @@
 # Futebol_Soccer_Register
- An Java project for do a registration of some soccer player,in one of team most popular from Champions League.
+An Java project for do a registration of some soccer player, in some teams most populars from Champions League.
 
  --------------------------- 2019 ---------------------------
 
